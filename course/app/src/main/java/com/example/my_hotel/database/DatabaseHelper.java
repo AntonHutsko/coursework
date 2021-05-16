@@ -13,14 +13,14 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static String DB_PATH; // полный путь к базе данных
+    private static String DB_PATH; // Полный путь к базе данных
     private static String DB_NAME = "menu.db";
-    private static final int SCHEMA = 1; // версия базы данных
-    static final String TABLE = "menu"; // название таблицы в бд
-    // названия столбцов
+    private static final int SCHEMA = 1; // Версия базы данных
+    static final String TABLE = "menu"; // Название таблицы в базе данных
+    // Названия столбцов
     static final String COLUMN_ID = "_id";
     static final String COLUMN_NAME = "name";
-    static final String COLUMN_COAST = "coast";
+    static final String COLUMN_COAST = "cost";
     static final String COLUMN_DESCRIPTION = "description";
     static final String COLUMN_PHOTO = "photo";
     private Context myContext;
@@ -43,7 +43,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         try {
             File file = new File(DB_PATH);
             if (!file.exists()) {
-                //получаем локальную бд как поток
+                //Получаем локальную бд как поток
                 myInput = myContext.getAssets().open(DB_NAME);
                 // Путь к новой бд
                 String outFileName = DB_PATH;
@@ -51,7 +51,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 // Открываем пустую бд
                 myOutput = new FileOutputStream(outFileName);
 
-                // побайтово копируем данные
+                // Побайтово копируем данные
                 byte[] buffer = new byte[1024];
                 int length;
                 while ((length = myInput.read(buffer)) > 0) {

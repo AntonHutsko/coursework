@@ -27,10 +27,8 @@ public class HotelActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // получим идентификатор выбранного пункта меню
+        // Получаем идентификатор выбранного пункта меню
         int id = item.getItemId();
-
-        //TextView infoTextView = findViewById(R.id.textView);
 
         // Операции для выбранного пункта меню
         switch (id) {

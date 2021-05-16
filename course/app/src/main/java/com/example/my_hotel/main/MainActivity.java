@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = new ImageView(this);
         Resources res = getResources();
         Drawable drawable = ResourcesCompat.getDrawable(res, R.drawable.hotel, null);
-        // применяем ресурс
+        // Применяем ресурс
         imageView.setImageDrawable(drawable);
         Button hotelButton = (Button) findViewById(R.id.hotel);
         hotelButton.setOnClickListener(new View.OnClickListener() {
@@ -59,8 +59,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent feedback = new Intent(MainActivity.this, FeedbackActivity.class);
                 startActivity(feedback);
-                //FeedbackActivity.showRatingDialog();
-
             }
         });
         Button locationButton = (Button) findViewById(R.id.location);
@@ -100,10 +98,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // получим идентификатор выбранного пункта меню
+        // Получаем идентификатор выбранного пункта меню
         int id = item.getItemId();
-
-        //TextView infoTextView = findViewById(R.id.textView);
 
         // Операции для выбранного пункта меню
         switch (id) {

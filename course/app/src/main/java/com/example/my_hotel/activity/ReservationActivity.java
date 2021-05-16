@@ -32,7 +32,7 @@ public class ReservationActivity extends AppCompatActivity {
                 String Date
                         = dayOfMonth + "-"
                         + (month + 1) + "-" + year;
-                // установить эту дату в TextView для отображения
+                // Установить эту дату в TextView для отображения
                 date_view.setText(Date);
             }
         });
@@ -47,7 +47,7 @@ public class ReservationActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // получим идентификатор выбранного пункта меню
+        // Получаем идентификатор выбранного пункта меню
         int id = item.getItemId();
 
         // Операции для выбранного пункта меню
@@ -69,7 +69,6 @@ public class ReservationActivity extends AppCompatActivity {
                 startActivity(gallery);
                 return true;
             case R.id.action_settings:
-                //infoTextView.setText("action_settings");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

@@ -54,25 +54,25 @@ public class RestaurantMenuActivity extends AppCompatActivity {
             userAdapter = new SimpleCursorAdapter(this, android.R.layout.two_line_list_item,
                     userCursor, headers, new int[]{android.R.id.text1, android.R.id.text2}, 0);
 
-            // если в текстовом поле есть текст, выполняем фильтрацию
-            // данная проверка нужна при переходе от одной ориентации экрана к другой
+            // Если в текстовом поле есть текст, выполняем фильтрацию
+            // Данная проверка нужна при переходе от одной ориентации экрана к другой
             if(!userFilter.getText().toString().isEmpty())
                 userAdapter.getFilter().filter(userFilter.getText().toString());
 
-            // установка слушателя изменения текста
+            // Установка слушателя изменения текста
             userFilter.addTextChangedListener(new TextWatcher() {
 
                 public void afterTextChanged(Editable s) { }
 
                 public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
-                // при изменении текста выполняем фильтрацию
+                // При изменении текста выполняем фильтрацию
                 public void onTextChanged(CharSequence s, int start, int before, int count) {
 
                     userAdapter.getFilter().filter(s.toString());
                 }
             });
 
-            // устанавливаем провайдер фильтрации
+            // Устанавливаем провайдер фильтрации
             userAdapter.setFilterQueryProvider(new FilterQueryProvider() {
                 @Override
                 public Cursor runQuery(CharSequence constraint) {
@@ -109,10 +109,8 @@ public class RestaurantMenuActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // получим идентификатор выбранного пункта меню
+        // Получим идентификатор выбранного пункта меню
         int id = item.getItemId();
-
-        //TextView infoTextView = findViewById(R.id.textView);
 
         // Операции для выбранного пункта меню
         switch (id) {

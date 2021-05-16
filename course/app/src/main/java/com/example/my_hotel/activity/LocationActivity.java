@@ -75,10 +75,8 @@ public class LocationActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // получим идентификатор выбранного пункта меню
+        // Получаем идентификатор выбранного пункта меню
         int id = item.getItemId();
-
-        //TextView infoTextView = findViewById(R.id.textView);
 
         // Операции для выбранного пункта меню
         switch (id) {
@@ -103,7 +101,6 @@ public class LocationActivity extends AppCompatActivity {
                 startActivity(gallery);
                 return true;
             case R.id.action_settings:
-                //infoTextView.setText("action_settings");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

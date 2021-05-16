@@ -66,20 +66,8 @@ public class ImageGalleryAdapter extends RecyclerView.Adapter<ImageGalleryAdapte
 
             super(itemView);
             mPhotoImageView = (ImageView) itemView.findViewById(R.id.iv_photo);
-//            itemView.setOnClickListener(this);
         }
 
-//        @Override
-//        public void onClick(View view) {
-//
-//            int position = getAdapterPosition();
-//            if(position != RecyclerView.NO_POSITION) {
-//                Photo Photo = mPhotos[position];
-//                Intent intent = new Intent(mContext, Photo.class);
-//                intent.putExtra(PhotoActivity.EXTRA_PHOTO, Photo);
-//                startActivity(intent);
-//            }
-//        }
     }
 
 
