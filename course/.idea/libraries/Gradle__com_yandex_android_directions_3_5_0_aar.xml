@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.android:directions:3.5.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b8c575ddd5b590ced39038601c344766/jetified-directions-3.5.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2f1e900d5ff05033e1b5d24441e0ce57/jetified-directions-3.5.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2f1e900d5ff05033e1b5d24441e0ce57/jetified-directions-3.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2f1e900d5ff05033e1b5d24441e0ce57/jetified-directions-3.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0651187d4b1dd8f7a906065ed31308a0/jetified-directions-3.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f1352b5a31d926c2bce6d5c63a07324/jetified-directions-3.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f1352b5a31d926c2bce6d5c63a07324/jetified-directions-3.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f1352b5a31d926c2bce6d5c63a07324/jetified-directions-3.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.android:search:3.5.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/19048d066f6bc003e3b23a5a9615a6f3/jetified-search-3.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/19048d066f6bc003e3b23a5a9615a6f3/jetified-search-3.5.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/19048d066f6bc003e3b23a5a9615a6f3/jetified-search-3.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/430a6a0257dbaee3bf80fd150baf6e4c/jetified-search-3.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/430a6a0257dbaee3bf80fd150baf6e4c/jetified-search-3.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/430a6a0257dbaee3bf80fd150baf6e4c/jetified-search-3.5.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
